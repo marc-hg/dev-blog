@@ -1,3 +1,37 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Comic Code Ligatures font for all text
+@font-face {
+  font-family: "Comic Code Ligatures";
+  src: url("/static/ComicCodeLigatures-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Make fonts smaller
+html {
+  font-size: 14px; // Reduced from default 16px
+}
+
+body {
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+code, pre {
+  font-size: 0.85rem;
+}
