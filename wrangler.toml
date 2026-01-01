@@ -1,6 +1,0 @@
-name = "quartz-site"
-compatibility_date = "2025-01-01"
-pages_build_output_dir = "public"
-
-[assets]
-directory = "public"
